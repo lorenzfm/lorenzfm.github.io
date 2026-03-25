@@ -16,11 +16,11 @@
 
 body, html {  
 	background:var(--new-bg-color);
-	overflow-x: hidden;
+	overflow-x: hidden!important;
     background: url('/img/pastel-gradient.gif')!important;
-	background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
+	background-size: cover!important;
+    background-position: center!important;
+    background-attachment: scroll!important;
 /*	transition: all .3s;
 	background: linear-gradient(-90deg, #ff8446, #4D00E2);
 	background-size: 200% 200%;
