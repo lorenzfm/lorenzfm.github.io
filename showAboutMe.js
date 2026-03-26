@@ -34,6 +34,17 @@ toggleHide.addEventListener('click',function(e){
 	/*engagePartyMode.classList.remove('hidden');*/
 });
 
+toggleHide2.addEventListener('click',function(e){
+	e.stopPropagation();
+	aboutMe.classList.add('hidden');
+    toggleShow.classList.remove('hidden');
+	toggleHide.classList.add('hidden');
+	toggleHide2.classList.add('hidden');
+
+	/*thePage.classList.remove('extender');
+	/*engagePartyMode.classList.remove('hidden');*/
+});
+
 /*engagePartyMode.addEventListener('click',function(e){
 	e.stopPropagation();
 	engagePartyMode.classList.add('hidden');
