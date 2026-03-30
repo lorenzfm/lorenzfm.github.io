@@ -251,7 +251,7 @@ text-decoration:none!important;
 }
 
 #bio {
-	border: 2px solid var(--bio-text);
+	border: 2px solid var(--pink-color);
 	/*border-radius:15px;*/
 	/*padding:20px 20px 10px 20px;*/
 	padding:0 0 10px 0;
@@ -267,7 +267,7 @@ text-decoration:none!important;
 
 #bio img.bio-photo {
 	margin-bottom:20px!important;
-	border-bottom:2px solid var(--bio-text);
+	border-bottom:2px solid var(--pink-color);
 }
 
 #bio a {
