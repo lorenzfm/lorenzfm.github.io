@@ -260,7 +260,7 @@ text-decoration:none!important;
 	/*border-radius:15px;*/
 	/*padding:20px 20px 10px 20px;*/
 	padding:0 0 10px 0;
-        background-color:var(--bio);
+    background-color:var(--bio);
 }
 
 #bio p {
@@ -268,6 +268,12 @@ text-decoration:none!important;
 	margin:0px!important;
 	/*padding:0 0 10px 0!important;*/
 	padding:0 20px 10px 20px!important;
+}
+
+#bio ol li, #bio ul li {
+	color:var(--bio-text);
+	font-size:16px;
+	margin-left: 20px;
 }
 
 #bio img.bio-photo {
